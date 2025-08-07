@@ -6,32 +6,36 @@
     <title>Formulario</title>
 </head>
 <body>
-    <h2>Formulario Grupal</h2>
-    <form id="nuestroprimerformulario">
-        <label>Producto</label>
-        <input type="textarea" placeholder="Nombre producto">
+    <div class="header">
+    <h1>Formulario Grupal</h1>
+    </div>
+    <div>
+        <form>
+            <h2>Producto</h2>
+            <input class="texto" type="text" placeholder="Nombre producto">
 
-        <label>Precio</label>
-        <input type="number" placeholder="Digite el precio">
+            <h2>Precio</h2>
+            <input class="texto" type="number" placeholder="Digite el precio">
 
-        <label for="categoria">Categoria</label>
-         <select id="categoria">
-         <option value="quesitos">Quesitos</option>
-         <option value="chirulitos">chirulitos</option>
-         <option value="tronaditas">tronaditas</option>
-         <option value="Ranchitas">Ranchitas</option>
-         <option value="Papiolas">Papiolas</option>
-         <option value="Bolitas de queso">Bolitas de queso</option>
+            <h2>Categoria</h2>
+        <select id="categoria">
+            <option value="quesitos">Quesitos</option>
+            <option value="chirulitos">chirulitos</option>
+            <option value="tronaditas">tronaditas</option>
+            <option value="Ranchitas">Ranchitas</option>
+            <option value="Papiolas">Papiolas</option>
+            <option value="Bolitas de queso">Bolitas de queso</option>
          </select>
          
-         <label for="descripcion">Descripción</label>
-         <textarea name="" id="descripcion" rows="1" cols="50"></textarea>
+         <h2>Descripción</h2>
+         <textarea class="descripcion" placeholder="Escriba una descripciòn del producto"></textarea>
 
-         <label for="cantidad">Cantidad disponible</label>
-         <input type="number" id="cantidad" min="0" step="1">
+         <h2>Cantidad disponible</h2>
+         <input class="texto" type="number" id="cantidad" min="0" step="1">
+
+   </div>      
 
 
-
-
+<link rel="stylesheet" href="estilos/Styles.css">
 </body>
 </html>
