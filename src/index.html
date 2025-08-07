@@ -3,10 +3,35 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <h3>Formulario</h3>
+    <title>Formulario</title>
 </head>
 <body>
-    
+    <h2>Formulario Grupal</h2>
+    <form id="nuestroprimerformulario">
+        <label>Producto</label>
+        <input type="textarea" placeholder="Nombre producto">
+
+        <label>Precio</label>
+        <input type="number" placeholder="Digite el precio">
+
+        <label for="categoria">Categoria</label>
+         <select id="categoria">
+         <option value="quesitos">Quesitos</option>
+         <option value="chirulitos">chirulitos</option>
+         <option value="tronaditas">tronaditas</option>
+         <option value="Ranchitas">Ranchitas</option>
+         <option value="Papiolas">Papiolas</option>
+         <option value="Bolitas de queso">Bolitas de queso</option>
+         </select>
+         
+         <label for="descripcion">Descripción</label>
+         <textarea name="" id="descripcion" rows="1" cols="50"></textarea>
+
+         <label for="cantidad">Cantidad disponible</label>
+         <input type="number" id="cantidad" min="0" step="1">
+
+
+
+
 </body>
 </html>
